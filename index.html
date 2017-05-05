@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="css/hover-min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="js/wow.min.js"></script>
+  <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
+  <!-- uncomment lines below to include extra p5 libraries -->
+  <script language="javascript" src="libraries/p5.dom.js"></script>
+  <!--<script language="javascript" src="libraries/p5.sound.js"></script>-->
+ <!-- <script language="javascript" type="text/javascript" src="sketch.js"></script>-->
+    
+              <script>
+              new WOW().init();
+              </script>
+    </head>
+    <body>
+        
+        
+        
+       
+        
+   
+<div class="w3-row">
+  <div class="w3-col" style="width:50px"><div class="navbarspot">
+<form> <input type="text" name="search" placeholder="Search this site..." class=w3-hide-small></form> </div>
+  </div>
+  <div class="w3-rest w3-container">
+<div class="NavBar" class="w3-navbar">
+    
+     
+     <li><a href="#"><div class="hvr-underline-from-left">Contact</div></a></li>
+     <li><a href="#"><div class="hvr-underline-from-left">Work</div></a></li>
+     <li><a href="#"><div class="hvr-underline-from-left">Resume</div></a></li>
+     <li><a href="#"><div class="hvr-underline-from-left">About</div></a></li>
+     <li><a href="#"><div class="hvr-underline-from-left">Home</div></a></li>
+
+
+    
+      </div>
+  </div>
+        </div>
+    <div id="page_wrapper">
+    <div class="w3-panel w3-transparent"><br>
+<h1>I'M <br>
+DZIADZAN MEKAELIAN.</h1> 
+</div> <div class="box">
+        <h2 class="paragraph" class="hvr-hollow">My name is Dziadzan Mekaelian and I am a graduating senior from Lake Forest College. I am majoring in Communication with a double minor in Digital Media Design and Spanish where I aspire to be a web & graphic designe.r Scroll through my page to learn more about me and what I do. Enjoy!
+            
+            
+            </h2></div>
+    <br>
+        
+        <div class="hvr-icon-drop"><i>Portfolio</i></div>
+    <div class="w3-panel">
+        
+        
+        <div class="w3-row">
+
+       <div class="w3-third w3-container w3-transparent">
+
+       <img id="myImg" src="assets/cultural%20heritage%20colllage.jpg" alt="Cultural collage" width="250" height="200">
+
+
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+<script>
+
+var modal = document.getElementById('myModal');
+
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+
+var span = document.getElementsByClassName("close")[0];
+
+
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+ 
+     
+    
+     
+     </script>
+     
+     
+           
+    
+  </div>
+  <div class="w3-third w3-container">
+
+     <img id="myImg" src="assets/political%20collage.jpg" alt="Political collage" width="250" height="200">
+
+
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+      </div>
+<script>
+
+var modal = document.getElementById('myModal');
+
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+
+var span = document.getElementsByClassName("close")[0];
+
+
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+ 
+     
+    
+     
+     </script>
+     
+      
+  
+  <div class="w3-third w3-container">
+
+       <img id="myImg" src="assets/chanel.png" alt="Chanel" width="250" height="200">
+
+
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img02">
+  <div id="caption"></div>
+</div>
+
+
+  </div>
+            <h2 class="caption"><i>Click to enlarge</i></h2>
+</div>
+        
+    
+ 
+        
+        
+        </div>
+        <div class="button">
+        <button onclick="myFunction('Demo1')" class="w3-btn w3-block w3-left-align w3-transparent"><h3 class="button">Work Experience</h3></button></div>
+<div id="Demo1" class="w3-container w3-hide">
+  <h4>Material Possessions
+  <p><i><b>Web Designer</b></i></p>
+    <p>Manage all content on materialpossessions.com that allows customers to buy products online which leads to a high profit for the store and higher satisfaction for the customers.</p></h4>
+    
+    <h4><b>Baron Chocolatier</b>
+    
+    <p><i>Web Designer</i></p>
+    <p>Managed webpage on Lake Forest College's site here for a better understanding of the services provided by the mailroom. Also helped develop and manage the University Mail Manager's Association Conference page here that helps support education in the mail industry.</p>
+    
+    </h4>
+     <h4>Ergonomist Approved
+  <p><i><b>Web Designer</b></i></p>
+    <p>Developed site at ergonomistapproved.com to help the company flourish and for people to comprehend what the company stands for. </p></h4>
+    
+    
+</div>
+
+</div>
+<script>
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+    
+
+     
+
+<br>
+    
+    
+    
+    
+
+      
+
+  <div class="w3-rest w3-container">
+<div class="NavBar" class="w3-navbar">
+    
+     <img src="assets/letter-d-logo-design-chandler-design.png"width="65"height="70">
+     <li><a href="#"><div class="hvr-underline-from-left">Contact</div></a></li>
+     <li><a href="#"><div class="hvr-underline-from-left">Work</div></a></li>
+     <li><a href="#"><div class="hvr-underline-from-left">Resume</div></a></li>
+     <li><a href="#"><div class="hvr-underline-from-left">About</div></a></li>
+     <li><a href="#"><div class="hvr-underline-from-left">Home</div></a></li>
+            
+
+    
+      </div>
+  </div>
+    
+
+    
+    </div><!--page wrapper-->
+    </body>
+</html>
+   

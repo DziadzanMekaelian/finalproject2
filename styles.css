@@ -1,0 +1,502 @@
+
+body{
+    background-color:#F9F8F6;
+    
+}
+
+
+div.NavBar li{
+    float:right;
+    height:50px;
+ font-family: "Georgia";
+    font-size:13pt;
+ padding:30px;
+  width:110px;
+}
+
+div.NavBar{
+   position:absolute;
+    width:100%;
+    z-index:5;
+    display:inline-block;
+    list-style-type: none;
+     position:relative;
+
+
+}
+
+
+#page_wrapper{
+     width:800px;
+    margin: 0px auto 0px auto; 
+   background-image:url(pagewrapper_background1.png);
+    background-size:100% 91%;
+    position:relative;
+    top:-32px;
+    left:0px;
+    height:100%;
+ 
+}
+
+
+div.NavBar a{
+    height:90px;
+    
+    
+}
+
+div.NavBar a:hover  {
+    background-color: transparent;
+    overflow:hidden;
+
+
+}
+
+
+
+h2.paragraph{
+    color: #E9E6E1;
+    font-size:13pt;
+    font-family: "Georgia";
+    margin-left:40px;
+    line-height: 200%;
+}
+h2.caption{
+    color: black;
+    font-size:11pt;
+    font-family: "Georgia";
+
+text-align: center;
+}
+
+
+h1{
+    color:#E5906D;
+    font-size:60pt;
+    font-family: "Georgia";
+    text-align: left;
+line-height:110%;
+    margin-top:70px;
+    margin-left:140px;
+}
+
+
+h3.button{
+    font-family:"Georgia";
+    font-size:20pt;
+    color:#E9E6E1;
+    
+}
+
+h4{
+    font-family:"Georgia";
+    font-size:13pt;
+    color:black;
+    margin-left:14px;
+    line-height:50%;
+    
+    
+}
+p{
+    line-height:130%;
+}
+
+div.content{
+    margin-top:20px;
+}
+
+ input {
+    text-align: left;
+    display: block;
+    width: 150px;
+    height:30px;
+    font-size: 14px;
+    padding:15px;
+    font-family:"Georgia";
+    color:#666666;
+    font-style: italic;
+    border: 1px solid #cfd3cc;
+
+  
+    }
+
+
+.column1{
+    margin-top:30px;
+    font-family: "Playfair Display";
+    font-style: italic;
+    font-size:30px;
+    
+}
+.logopanel{
+text-align: center;
+    margin-top:-20px;
+}
+
+
+
+.btn-social {
+    width: 200px;
+    position: relative;
+    opacity: .8;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-social:hover {
+    transform: scale(2, 2); 
+    opacity: 1;
+}
+
+.hvr-underline-from-left {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-left:before {
+  content: "hello";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: #000000;
+  height: 2px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
+  right: 0;
+}
+
+input[type=text] {
+    width: 150px;
+    height:25px;
+    margin-left:70px;
+margin-top:40px;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    padding:10px;
+    font-size: 13px;
+    font-family:"Georgia";
+    font-style:italic;
+    color:#000000;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    background:transparent;
+
+    
+}
+/*Position of the object*/
+.object {
+    position: fixed;
+    
+
+}
+.van {
+    top: 100%;
+    left:0%;
+    
+    
+}
+
+
+#axis:hover .move-right{
+    transform: translate(115%,0);
+    -webkit-transform: translate(115%,0); /** Chrome & Safari **/
+    -o-transform: translate(115%,0); /** Opera **/
+    -moz-transform: translate(115%,0); /** Firefox **/
+}
+
+.object {
+    position: absolute;
+    transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ease-in-out; /** Chrome & Safari **/
+    -moz-transition: all 2s ease-in-out; /** Firefox **/
+    -o-transition: all 2s ease-in-out; /** Opera **/
+}
+div.space{
+    margin-top:-17px;
+}
+div.secondspace{
+    margin-top:30px;
+}
+.location1{
+    text-align: center;
+    margin-top:90px;
+}
+
+.second{
+    text-align: center;
+    margin-top:90px;
+}
+
+.whitespace{
+    height:365px;
+    width:100%;
+    margin-top:-16px;
+    background-color:white;
+    
+}
+div.palmtree{
+    width:100%;
+    text-align: left;
+   margin-top:-130px;
+    margin-left:-160px;
+}
+
+.whitespacenav{
+    margin-top:30px;
+    margin-right:40px;
+}
+
+.paragraph2{
+  margin-bottom:100px;
+    margin-top:100px;
+}
+
+@-webkit-keyframes hvr-icon-pop {
+  50% {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+}
+@keyframes hvr-icon-pop {
+  50% {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+}
+.hvr-icon-pop {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  padding-right: 2.2em;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-icon-pop:before {
+  content: "\f005";
+  position: absolute;
+  right: 1em;
+  padding: 0 1px;
+  font-family: FontAwesome;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-icon-pop:hover:before, .hvr-icon-pop:focus:before, .hvr-icon-pop:active:before {
+  -webkit-animation-name: hvr-icon-pop;
+  animation-name: hvr-icon-pop;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+
+
+/*Photo transition to enlarge*/
+
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    align-content: center;
+    margin-top:20px;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add smooth transition & animation */
+.modal-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+
+
+div.box {
+    background-color: #333B50;
+    width:768px;
+    padding: 25px;
+    margin: 25px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+@-webkit-keyframes hvr-icon-drop {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+  51%,
+	100% {
+    opacity: 1;
+  }
+}
+@keyframes hvr-icon-drop {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+  51%,
+	100% {
+    opacity: 1;
+  }
+}
+/* Icon Drop */
+.hvr-icon-drop {
+    font-family:"Georgia";
+    font-size:20pt;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  padding-right: 2.2em;
+    margin-left:350px;
+    
+}
+.hvr-icon-drop:before {
+  content: "\f041";
+  position: absolute;
+  right: 1em;
+  opacity: 1;
+  padding: 0 1px;
+  font-family: FontAwesome;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.hvr-icon-drop:hover:before, .hvr-icon-drop:focus:before, .hvr-icon-drop:active:before {
+  opacity: 0;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-animation-name: hvr-icon-drop;
+  animation-name: hvr-icon-drop;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+  animation-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+
+div.button{
+    background-color:#333B50;
+margin-left:30px;
+   width:250px;
+}
+div.navbarspot{
+    margin-top:-10px;
+    margin-left:-60px;
+}
+
